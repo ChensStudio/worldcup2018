@@ -1,24 +1,5 @@
 <body>
-<p>{{> i18n_dropdown}}</p>
-<table style="border-collapse: collapse; margin: 0 auto; border: 1px solid #000000;" border="1" cellspacing="0" cellpadding="2" align="left">
-    <tbody>
-        <tr style="height: 15px;">
-        <th style="border-color: #d0d0d0; padding: 2.25pt; background-color: #e1e9ff; height: 15px; border-style: none;" colspan="11" align="center">{{_ "app.Title"}}</th>
-        </tr>
-        <tr style="height: 20px;">
-        <td style="height: 20px;">{{_ "app.GameID"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td style="height: 20px;">{{_ "app.BeginTime"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td style="height: 20px;">{{_ "app.Teams"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td style="text-align: center; height: 20px;" colspan="2">{{_ "app.City"}}</td>
-        <td style="text-align: center; height: 20px;" colspan="2">Team1 Win</td>
-        <td style="text-align: center; height: 20px;" colspan="2">Draw</td>
-        <td style="text-align: center; height: 20px;" colspan="2">Team2 Win</td>
-        </tr>
-        {{#each games}}
-            {{> game}}
-        {{/each}}
-    </tbody>
-</table>
+    {{> gamebody}}
 </body>
 
 <template name="game">
@@ -31,4 +12,31 @@
         <td style="height: 20px;" colspan="2" align="center">{{>qrcode text=DrawContract size=128}}</td>
         <td style="height: 20px;" colspan="2" align="center">{{>qrcode text=Team2WinContract size=128}}</td>
     </tr>
+</template>
+
+<template name="gamebody">
+    {{#if isMicroMessage}}
+        <H2>Please open in normal browser!</H2>
+    {{else}}
+        <p>{{> i18n_dropdown}}</p>
+        <table style="border-collapse: collapse; margin: 0 auto; border: 1px solid #000000;" border="1" cellspacing="0" cellpadding="2" align="left">
+            <tbody>
+                <tr style="height: 15px;">
+                <th style="border-color: #d0d0d0; padding: 2.25pt; background-color: #e1e9ff; height: 15px; border-style: none;" colspan="11" align="center">{{_ "app.Title"}}</th>
+                </tr>
+                <tr style="height: 20px;">
+                <td style="height: 20px;">{{_ "app.GameID"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td style="height: 20px;">{{_ "app.BeginTime"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td style="height: 20px;">{{_ "app.Teams"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td style="text-align: center; height: 20px;" colspan="2">{{_ "app.City"}}</td>
+                <td style="text-align: center; height: 20px;" colspan="2">Team1 Win</td>
+                <td style="text-align: center; height: 20px;" colspan="2">Draw</td>
+                <td style="text-align: center; height: 20px;" colspan="2">Team2 Win</td>
+                </tr>
+                {{#each games}}
+                    {{> game}}
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
 </template>

@@ -1,7 +1,7 @@
 import {Template} from 'meteor/templating';
 import './games.html';
 
-Template.body.helpers({
+Template.gamebody.helpers({
     games:[
         {
             GameNumber: "1"
@@ -645,10 +645,19 @@ Template.body.helpers({
             ,Team2WinContract: ""
         }
     ],
+    'isMicroMessage': function () {
+        var ua = window.navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            return true;
+        }
+        else {
+            return fales;
+        }
+    }
 });
 
 Template.game.helpers({
-    localTime: function(inputDate){
+    'localTime': function(inputDate){
         var nd = new Date(inputDate);
         return nd.toLocaleDateString() +' '+ nd.toLocaleTimeString();
     }
