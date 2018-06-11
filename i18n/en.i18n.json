@@ -5,7 +5,9 @@
 		"BeginTime": "Start Time",
 		"GameID": "Game Number",
 		"Teams": "Team1 - Team2",
-		"City": "City" 
+		"City": "City",
+		"Win": "Win",
+		"Draw": "Draw"
 	},
 	"team":{
 		"Russia": {"Name": "Russia", "Flag": "rus.png"},

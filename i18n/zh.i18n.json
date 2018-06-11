@@ -5,7 +5,9 @@
 		"BeginTime": "比赛时间",
 		"GameID": "场序",
 		"Teams": "Team1 - Team2",
-		"City": "城市" 
+		"City": "城市",
+		"Win": "获胜",
+		"Draw": "打平"
 	},
 	"team":{
 		"Russia": {"Name": "俄罗斯"},

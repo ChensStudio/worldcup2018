@@ -1,5 +1,8 @@
 import {Template} from 'meteor/templating';
+import { ReactiveVar } from 'meteor/reactive-var';
 import './games.html';
+
+var myContract = new ReactiveVar();
 
 Template.gamebody.helpers({
     games:[
@@ -10,8 +13,8 @@ Template.gamebody.helpers({
             ,GMTTime: "2018-06-14 15:00 UTC"
             ,City: "location.Moscow"
             ,Team1WinContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,DrawContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Team2WinContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,DrawContract: "0x356therh567ujmmtwrwy6"
+            ,Team2WinContract: "0x35hru585itjt95o607l87"
             ,Flag1: "team.Russia.Flag"
             ,Flag2: "team.Saudi Arabia.Flag"
         }
@@ -770,7 +773,7 @@ Template.gamebody.helpers({
             return true;
         }
         else {
-            return fales;
+            return false;
         }
     }
 });
@@ -779,5 +782,21 @@ Template.game.helpers({
     'localTime': function(inputDate){
         var nd = new Date(inputDate);
         return nd.toLocaleDateString() +' '+ nd.toLocaleTimeString();
+    },
+    'shareVar': function(){
+        return contract;
     }
 });
+
+Template.game.events({
+    'click .contractClick': function(e) {
+        myContract = $(e.target).data('contract');
+        Modal.show('exampleModal');
+    }
+ });
+
+ Template.exampleModal.helpers({
+    contract: function(){
+        return myContract;
+    }
+ });

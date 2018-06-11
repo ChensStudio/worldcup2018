@@ -11,6 +11,9 @@
         <div class="divTableCell">VS.</div>
         <div class="divTableCell">{{_ Team2}}</div>
         <div class="divTableCell"><img src={{_ Flag2}}></div>
+        <div class="divTableCell"><button class = "contractClick" data-contract={{Team1WinContract}}>{{_ Team1}} {{_ "app.Win"}}</button></div>
+        <div class="divTableCell"><button class = "contractClick" data-contract={{DrawContract}}>{{_ "app.Draw"}}</button></div>
+        <div class="divTableCell"><button class = "contractClick" data-contract={{Team2WinContract}}>{{_ Team2}} {{_ "app.Win"}}</button></div>
     </div>
     <div class="divTableRow">
         <div class="divTableCell">&nbsp;</div>
@@ -31,4 +34,11 @@
             </div>
         </div>
     {{/if}}
+</template>
+
+<template name="exampleModal">
+    <div class="modal fade" style="vertical-align: middle; text-align: center; top: 150px;">
+        <h1>{{myContract}}</h1>
+        {{>qrcode text=contract size=256}}
+    </div>
 </template>
