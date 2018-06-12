@@ -10,11 +10,18 @@
         <div class="divTableCell">{{_ Team1}}</div>
         <div class="divTableCell">&nbsp;</div>
         <div class="divTableCell">{{_ Team2}}</div>
+        <div class="divTableCell">{{_ "app.JackpotTitle"}}</div>
     </div>
     <div class="divTableRow">
         <div class="divTableCell"><img src={{_ Flag1}}></div>
         <div class="divTableCell">VS.</div>
         <div class="divTableCell"><img src={{_ Flag2}}></div>
+    </div>
+    <div class="divTableRow">
+        <div class="divTableCell">{{contribution 0}}</div>
+        <div class="divTableCell">{{contribution 1}}</div>
+        <div class="divTableCell">{{contribution 2}}</div>
+        <div class="divTableCell">{{jackpot}}</div>
     </div>
     <div class="divTableRow">
         <div class="divTableCell"><button class = "contractClick" data-contract={{Team1WinContract}}>{{_ Team1}} {{_ "app.Win"}}</button></div>

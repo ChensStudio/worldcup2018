@@ -7,6 +7,7 @@
 		"Teams": "Team1 - Team2",
 		"City": "城市",
 		"Win": "获胜",
+		"JackpotTitle": "单场总奖金",
 		"Draw": "打平"
 	},
 	"team":{
