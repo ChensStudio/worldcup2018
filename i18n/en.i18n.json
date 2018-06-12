@@ -107,6 +107,6 @@
 		"Final": "Final" 		
 	},
 	"games": {
-
+		"gametext": "Game __gamenumber__"
 	}
 }

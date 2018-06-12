@@ -16,6 +16,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: "0x35hru585itjt95o607l87"
             ,Flag1: "team.Russia.Flag"
             ,Flag2: "team.Saudi Arabia.Flag"
+            ,GameText: "games.gametext"
         }
         ,{
             GameNumber: "2"
@@ -28,6 +29,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
             ,Flag1: "team.Egypt.Flag"
             ,Flag2: "team.Uruguay.Flag"
+            ,GameText: "games.gametext"
         }
         ,{
             GameNumber: "3"
@@ -40,6 +42,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Morocco.Flag"
             ,Flag2: "team.Iran.Flag"
+            ,GameText: "games.gametext"
         }
         ,{
             GameNumber: "4"
@@ -52,6 +55,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Portugal.Flag"
             ,Flag2: "team.Spain.Flag"
+            ,GameText: "games.gametext"
         }
         ,{
             GameNumber: "5"
@@ -64,7 +68,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.France.Flag"
             ,Flag2: "team.Australia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "6"
             ,Team1: "team.Argentina.Name"
@@ -76,7 +81,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Argentina.Flag"             
             ,Flag2: "team.Iceland.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "7"
             ,Team1: "team.Peru.Name"
@@ -88,7 +94,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Peru.Flag"             
             ,Flag2: "team.Denmark.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "8"
             ,Team1: "team.Croatia.Name"
@@ -100,7 +107,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Croatia.Flag"             
             ,Flag2: "team.Nigeria.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "9"
             ,Team1: "team.Costa Rica.Name"
@@ -112,7 +120,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Costa Rica.Flag"             
             ,Flag2: "team.Serbia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "10"
             ,Team1: "team.Germany.Name"
@@ -124,7 +133,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Germany.Flag"             
             ,Flag2: "team.Mexico.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "11"
             ,Team1: "team.Brazil.Name"
@@ -135,7 +145,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.Brazil.Flag"             
-            ,Flag2: "team.Switzerland.Flag"},
+            ,Flag2: "team.Switzerland.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "12"
             ,Team1: "team.Sweden.Name"
@@ -147,7 +159,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Sweden.Flag"             
             ,Flag2: "team.South Korea.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "13"
             ,Team1: "team.Belgium.Name"
@@ -159,7 +172,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Belgium.Flag"             
             ,Flag2: "team.Panama.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "14"
             ,Team1: "team.Tunisia.Name"
@@ -171,7 +185,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Tunisia.Flag"             
             ,Flag2: "team.England.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "15"
             ,Team1: "team.Colombia.Name"
@@ -183,7 +198,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Colombia.Flag"             
             ,Flag2: "team.Japan.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "16"
             ,Team1: "team.Poland.Name"
@@ -195,6 +211,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Poland.Flag"             
             ,Flag2: "team.Senegal.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "17"
@@ -207,6 +224,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Russia.Flag"             
             ,Flag2: "team.Egypt.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "18"
@@ -219,6 +237,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Portugal.Flag"             
             ,Flag2: "team.Morocco.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "19"
@@ -231,6 +250,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Uruguay.Flag"             
             ,Flag2: "team.Saudi Arabia.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "20"
@@ -243,6 +263,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Iran.Flag"             
             ,Flag2: "team.Spain.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "21"
@@ -255,6 +276,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Denmark.Flag"             
             ,Flag2: "team.Australia.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "22"
@@ -267,6 +289,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.France.Flag"             
             ,Flag2: "team.Peru.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "23"
@@ -279,6 +302,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Argentina.Flag"             
             ,Flag2: "team.Croatia.Flag"
+            ,GameText: "games.gametext"
         },
         ,{
             GameNumber: "24"
@@ -291,7 +315,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Brazil.Flag"             
             ,Flag2: "team.Costa Rica.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "25"
             ,Team1: "team.Nigeria.Name"
@@ -303,7 +328,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Nigeria.Flag"             
             ,Flag2: "team.Iceland.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "26"
             ,Team1: "team.Serbia.Name"
@@ -315,7 +341,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Serbia.Flag"             
             ,Flag2: "team.Switzerland.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "27"
             ,Team1: "team.Belgium.Name"
@@ -327,7 +354,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Belgium.Flag"             
             ,Flag2: "team.Tunisia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "28"
             ,Team1: "team.South Korea.Name"
@@ -339,7 +367,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.South Korea.Flag"             
             ,Flag2: "team.Mexico.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "29"
             ,Team1: "team.Germany.Name"
@@ -351,7 +380,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Germany.Flag"             
             ,Flag2: "team.Sweden.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "30"
             ,Team1: "team.England.Name"
@@ -363,7 +393,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.England.Flag"             
             ,Flag2: "team.Panama.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "31"
             ,Team1: "team.Japan.Name"
@@ -375,7 +406,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Japan.Flag"             
             ,Flag2: "team.Senegal.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "32"
             ,Team1: "team.Poland.Name"
@@ -387,7 +419,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Poland.Flag"             
             ,Flag2: "team.Colombia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "33"
             ,Team1: "team.Uruguay.Name"
@@ -399,7 +432,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Uruguay.Flag"             
             ,Flag2: "team.Russia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "34"
             ,Team1: "team.Saudi Arabia.Name"
@@ -410,7 +444,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.Saudi Arabia.Flag"             
-            ,Flag2: "team.Egypt.Flag"},
+            ,Flag2: "team.Egypt.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "35"
             ,Team1: "team.Spain.Name"
@@ -421,7 +457,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.Spain.Flag"             
-            ,Flag2: "team.Morocco.Flag"},
+            ,Flag2: "team.Morocco.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "36"
             ,Team1: "team.Iran.Name"
@@ -433,7 +471,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Iran.Flag"             
             ,Flag2: "team.Portugal.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "37"
             ,Team1: "team.Australia.Name"
@@ -445,7 +484,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Australia.Flag"             
             ,Flag2: "team.Peru.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "38"
             ,Team1: "team.Denmark.Name"
@@ -457,7 +497,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Denmark.Flag"             
             ,Flag2: "team.France.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "39"
             ,Team1: "team.Nigeria.Name"
@@ -469,7 +510,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Nigeria.Flag"             
             ,Flag2: "team.Argentina.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "40"
             ,Team1: "team.Iceland.Name"
@@ -481,7 +523,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Iceland.Flag"             
             ,Flag2: "team.Croatia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "41"
             ,Team1: "team.South Korea.Name"
@@ -493,7 +536,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.South Korea.Flag"             
             ,Flag2: "team.Germany.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "42"
             ,Team1: "team.Mexico.Name"
@@ -505,7 +549,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Mexico.Flag"             
             ,Flag2: "team.Sweden.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "43"
             ,Team1: "team.Serbia.Name"
@@ -517,7 +562,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Serbia.Flag"             
             ,Flag2: "team.Brazil.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "44"
             ,Team1: "team.Switzerland.Name"
@@ -529,7 +575,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Switzerland.Flag"             
             ,Flag2: "team.Costa Rica.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "45"
             ,Team1: "team.Japan.Name"
@@ -541,7 +588,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Japan.Flag"             
             ,Flag2: "team.Poland.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "46"
             ,Team1: "team.Senegal.Name"
@@ -553,7 +601,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Senegal.Flag"             
             ,Flag2: "team.Colombia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "47"
             ,Team1: "team.Panama.Name"
@@ -565,7 +614,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.Panama.Flag"             
             ,Flag2: "team.Tunisia.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "48"
             ,Team1: "team.England.Name"
@@ -577,7 +627,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.England.Flag"             
             ,Flag2: "team.Belgium.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "49"
             ,Team1: "team.C1.Name"
@@ -589,7 +640,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.C1.Flag"             
             ,Flag2: "team.D2.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "50"
             ,Team1: "team.A1.Name"
@@ -601,7 +653,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.A1.Flag"             
             ,Flag2: "team.B2.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "51"
             ,Team1: "team.B1.Name"
@@ -612,7 +665,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.B1.Flag"             
-            ,Flag2: "team.A2.Flag"},
+            ,Flag2: "team.A2.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "52"
             ,Team1: "team.D1.Name"
@@ -623,7 +678,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.D1.Flag"             
-            ,Flag2: "team.C2.Flag"},
+            ,Flag2: "team.C2.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "53"
             ,Team1: "team.E1.Name"
@@ -634,7 +691,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.E1.Flag"             
-            ,Flag2: "team.F2.Flag"},
+            ,Flag2: "team.F2.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "54"
             ,Team1: "team.G1.Name"
@@ -645,7 +704,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.G1.Flag"             
-            ,Flag2: "team.H2.Flag"},
+            ,Flag2: "team.H2.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "55"
             ,Team1: "team.F1.Name"
@@ -656,7 +717,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.F1.Flag"             
-            ,Flag2: "team.E2.Flag"},
+            ,Flag2: "team.E2.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "56"
             ,Team1: "team.H1.Name"
@@ -668,7 +731,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.H1.Flag"             
             ,Flag2: "team.G2.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "57"
             ,Team1: "team.49Win.Name"
@@ -680,7 +744,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.49Win.Flag"             
             ,Flag2: "team.50Win.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "58"
             ,Team1: "team.53Win.Name"
@@ -692,7 +757,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.53Win.Flag"             
             ,Flag2: "team.54Win.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "59"
             ,Team1: "team.51Win.Name"
@@ -704,7 +770,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.51Win.Flag"             
             ,Flag2: "team.52Win.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "60"
             ,Team1: "team.55Win.Name"
@@ -717,7 +784,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.55Win.Flag"             
             ,Flag2: "team.56Win.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "61"
             ,Team1: "team.57Win.Name"
@@ -729,7 +797,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.57Win.Flag"             
             ,Flag2: "team.58Win.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "62"
             ,Team1: "team.59Win.Name"
@@ -741,7 +810,8 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.59Win.Flag"             
             ,Flag2: "team.60Win.Flag"
-        },
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "63"
             ,Team1: "team.61Lose.Name"
@@ -752,7 +822,9 @@ Template.gamebody.helpers({
             ,DrawContract: ""
             ,Team2WinContract: ""
             ,Flag1: "team.61Lose.Flag"             
-            ,Flag2: "team.62Lose.Flag"},
+            ,Flag2: "team.62Lose.Flag"
+            ,GameText: "games.gametext"
+        }
         ,{
             GameNumber: "64"
             ,Team1: "team.61Win.Name"
@@ -764,6 +836,7 @@ Template.gamebody.helpers({
             ,Team2WinContract: ""
             ,Flag1: "team.61Win.Flag"             
             ,Flag2: "team.62Win.Flag"
+            ,GameText: "games.gametext"
         }
     ],
     'isMicroMessage': function () {
