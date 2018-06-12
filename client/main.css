@@ -19,7 +19,9 @@ body {
 .divTableCell, .divTableHead {
 	border: 0px solid #999999;
 	display: table-cell;
+	width: 20%;
 	padding: 3px 10px;
+	text-align: center;
 }
 .divTableHeading {
 	background-color: #EEE;
