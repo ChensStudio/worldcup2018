@@ -1,4 +1,5 @@
 <body>
+    <div class="banner"><img src={{_ "app.Banner"}}></div>
     {{> gamebody}}
 </body>
 
@@ -38,7 +39,7 @@
     {{#if isMicroMessage}}
         <H2>Please open in normal browser!</H2>
     {{else}}
-        <div style="width: 80px; height: 50px">{{> i18n_dropdown}}</div>
+        <div class="i18ndropdown">{{> i18n_dropdown}}</div>
         <div class="rTable">
             <div class="rTableBody">
                 {{#each games}}

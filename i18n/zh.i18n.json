@@ -8,7 +8,8 @@
 		"City": "城市",
 		"Win": "获胜",
 		"JackpotTitle": "单场总奖金",
-		"Draw": "打平"
+		"Draw": "打平",
+		"Banner": "banner.jpg"
 	},
 	"team":{
 		"Russia": {"Name": "俄罗斯"},

@@ -1,13 +1,18 @@
 body {
-  padding: 10px;
+  /*padding: 10px;*/
   font-family: sans-serif;
   font-size: 20px;
   background-color: #29334C;
   color:#ededed;
+  max-width: 1000px;
+  margin: auto;
 }
 
 
 /* DivTable.com */
+.rTable {
+	margin-top: 230px;
+}
 .divTable{
 	display: table;
 	width: 100%;
@@ -48,6 +53,25 @@ body {
 	padding-top: 150px;
 	background-color: #d0d0d0;
 }
+.banner {
+	top: 0;
+	height: 200px;
+	list-style: none;
+	position: fixed;
+}
+
+.banner img {
+	height: 100%;
+}
+
+.i18ndropdown {
+	top: 200px;
+	position: fixed;
+	width: 80px; 
+	height: 50px;
+
+}
+
 button {
 	background-color: #29334C;
 	color: #ededed;
