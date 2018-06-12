@@ -4,7 +4,7 @@
 
 <template name="game">
     <div class="divTableRow">
-        <div class="divTableCell">{{_ GameText gamenumber=GameNumber}}: {{localTime GMTTime}}</div>
+        <div class="divTableCell smallFont">{{_ GameText gamenumber=GameNumber}}: {{localTime GMTTime}}</div>
     </div>
     <div class="divTableRow">
         <div class="divTableCell">{{_ Team1}}</div>
@@ -43,7 +43,8 @@
 </template>
 
 <template name="qrModal">
-    <div class="modal fade" style="vertical-align: middle; text-align: center; top: 150px;">
+    <div class="modal fade qrbox">
         {{>qrcode text=contract size=256}}
+        <!-- {{address}} -->
     </div>
 </template>
