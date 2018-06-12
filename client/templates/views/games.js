@@ -837,6 +837,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.61Win.Flag"             
             ,Flag2: "team.62Win.Flag"
             ,GameText: "games.gametext"
+            ,JackpotTitle: "games.jackpottitle"
         }
     ],
     'isMicroMessage': function () {
@@ -854,6 +855,14 @@ Template.game.helpers({
     'localTime': function(inputDate){
         var nd = new Date(inputDate.replace(/-/g, "/"));
         return nd.toLocaleDateString() +' '+ nd.toLocaleTimeString();
+    },
+    'contribution': function(result) {
+        //result: 0 home, 1 draw, 2 away
+        // console.log("result", result);
+        return parseInt(result, 10)*10000 + ' tokens';
+    },
+    'jackpot': function() {
+        return 1000000 + ' tokens';
     }
 });
 
@@ -864,8 +873,9 @@ Template.game.events({
     }
  });
 
- Template.qrModal.helpers({
+Template.qrModal.helpers({
     contract: function(){
         return myContract;
     }
- });
+});
+

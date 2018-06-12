@@ -7,7 +7,9 @@
 		"Teams": "Team1 - Team2",
 		"City": "City",
 		"Win": "Win",
-		"Draw": "Draw"
+		"JackpotTitle": "Match Total Award",
+		"Draw": "Draw",
+		"Banner": "banner.jpg"
 	},
 	"team":{
 		"Russia": {"Name": "Russia", "Flag": "rus.png"},
