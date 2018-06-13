@@ -8,9 +8,14 @@
 		"City": "City",
 		"Win": "Win",
 		"JackpotTitle": "Match Total Award",
+		"JackpotTitle1": "Jackpot",
 		"Draw": "Draw",
 		"Banner": "banner.jpg",
-		"QRDesc": "Please copy above address to Token Pocket(https://www.mytokenpocket.vip) or use Token Pockety to scan the barcode to send MOAC."
+		"QRDesc": "Please copy above address to Token Pocket(https://www.mytokenpocket.vip) or use Token Pockety to scan the barcode to send MOAC.",
+		"BetChampion": "Support",
+		"SingleMatchPrediction": "Single Match",
+		"ChampionPrediction": "Champion",
+		"Help": "Rules & Help"
 	},
 	"team":{
 		"Russia": {"Name": "Russia", "Flag": "rus.png"},

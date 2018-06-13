@@ -4,3 +4,22 @@
 
 <template name="worldcup">
 </template>
+
+<body>
+    <div class="banner"><img src={{_ "app.Banner"}}></div>
+    <div class="navbar">
+    	<ul class="navbarul">
+    		<li><a href="#singleMatchAnchor">{{_ "app.SingleMatchPrediction"}}</a></li>
+    		|
+    		<li><a href="#championAnchor">{{_ "app.ChampionPrediction"}}</a></li>
+    		|
+    		<li><a href="#helpAnchor">{{_ "app.Help"}}</a></li>
+			|
+			<li><div class="i18ndropdown">{{> i18n_dropdown}}</div></li>
+    	</ul>
+    </div>
+    <a name="singleMatchAnchor"></a>
+    {{> gamebody}}
+    <a name="championAnchor"></a>
+    {{> teambody}}
+</body>

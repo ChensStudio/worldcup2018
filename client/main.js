@@ -3,6 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 import './templates/views/games.js'
+import './templates/views/teams.js'
 
 global.Buffer = global.Buffer || require("buffer").Buffer;
 

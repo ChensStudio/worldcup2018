@@ -864,7 +864,7 @@ Template.game.helpers({
         var result = paramJson.result;
         var gameNumber = paramJson.gameNumber;
 
-        if (!contractInstance) {
+        if (!contractInstance && chain3) {
             contractInstance = chain3.mc.contract(gameAbi).at(gameAddress);
         }
 
@@ -874,7 +874,7 @@ Template.game.helpers({
     },
     'jackpot': function(gameNumber) {
 
-        if (!contractInstance) {
+        if (!contractInstance && chain3) {
             contractInstance = chain3.mc.contract(gameAbi).at(gameAddress);
         }
 

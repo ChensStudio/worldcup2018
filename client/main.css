@@ -8,10 +8,32 @@ body {
   margin: auto;
 }
 
+ul.navbarul {
+	display: table;
+	 width: 100%;
+	 /*position: fixed;*/
+/*	padding:0; 
+	margin:0; 
+	white-space:nowrap;
+*/	/*width: 1000px;*/
+    font-size: 30px;
+}
 
+ul.navbarul li {
+	display:table-cell;
+	width: auto;
+  	text-align: center;
+/*	width: 100%; 
+	list-style-type:none; 
+	display:inline-block; 
+*/    /*display:inline;*/
+}
+.navbar {
+	width: 1000px;
+}
 /* DivTable.com */
 .rTable {
-	margin-top: 250px;
+	margin-top: 20px;
 }
 .divTable{
 	display: table;
@@ -57,7 +79,7 @@ body {
 	top: 0;
 	height: 216px;
 	list-style: none;
-	position: fixed;
+	/*position: fixed;*/
 }
 
 .banner img {
@@ -65,11 +87,15 @@ body {
 }
 
 .i18ndropdown {
-	top: 220px;
-	position: fixed;
+	/*top: 220px;*/
+	/*position: fixed;*/
 	width: 80px; 
-	height: 50px;
+	/*height: 50px;*/
 
+}
+
+.flag {
+	width: 150px;
 }
 
 button {
@@ -81,6 +107,10 @@ button {
     body {
         font-size: 32px;
     }
+    .navbar {
+		width: 100%;
+	}
+
 	.smallFont {
 		font-size: 24px;
 	}

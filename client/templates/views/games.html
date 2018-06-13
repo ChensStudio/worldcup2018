@@ -1,6 +1,7 @@
 <body>
-    <div class="banner"><img src={{_ "app.Banner"}}></div>
-    {{> gamebody}}
+<!--     <div class="banner"><img src={{_ "app.Banner"}}></div>
+ --><!--     {{> gamebody}}
+    {{> teambody}} -->
 </body>
 
 <template name="game">
@@ -14,9 +15,9 @@
         <div class="divTableCell">{{_ "app.JackpotTitle"}}</div>
     </div>
     <div class="divTableRow">
-        <div class="divTableCell"><img src={{_ Flag1}}></div>
+        <div class="divTableCell"><img class="flag" src={{_ Flag1}}></div>
         <div class="divTableCell">VS.</div>
-        <div class="divTableCell"><img src={{_ Flag2}}></div>
+        <div class="divTableCell"><img class="flag" src={{_ Flag2}}></div>
     </div>
     <div class="divTableRow">
         <div class="divTableCell">{{contribution result=0 gameNumber=GameNumber}}</div>
@@ -39,7 +40,6 @@
     {{#if isMicroMessage}}
         <H2>Please open in normal browser!</H2>
     {{else}}
-        <div class="i18ndropdown">{{> i18n_dropdown}}</div>
         <div class="rTable">
             <div class="rTableBody">
                 {{#each games}}

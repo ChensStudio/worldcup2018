@@ -1,0 +1,47 @@
+<!-- <body>
+    {{> teambody}}
+</body> -->
+
+<template name="team">
+    <div class="divTableRow">
+        <div class="divTableCell">{{_ Team}}</div>
+        <div class="divTableCell">{{_ "app.JackpotTitle1"}}</div>
+    </div>
+    <div class="divTableRow">
+        <div class="divTableCell"><img src={{_ Flag}}></div>
+    </div>
+    <div class="divTableRow">
+        <div class="divTableCell">{{contribution TeamNumber}}</div>
+    </div>
+    <div class="divTableRow">
+        <div class="divTableCell"><button class = "contractClick" data-contract={{TeamChampionContract}}>{{_ "app.BetChampion"}}</button></div>
+    </div>
+    <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+    </div>
+</template>
+
+<template name="teambody">
+    {{#if isMicroMessage}}
+        <H2>Please open in normal browser!</H2>
+    {{else}}
+        <div class="rTable">
+            <div class="rTableBody">
+                {{#each teams}}
+                    {{> team}}
+                {{/each}}
+            </div>
+        </div>
+    {{/if}}
+</template>
+
+<!-- <template name="qrModal">
+    <div class="modal fade qrbox" style="color:black">
+        {{>qrcode text=contract size=256}}
+        <input id="foo" style="width:500px" type="text" value={{contract}} readonly>
+        <button class="btn" data-clipboard-action="copy" data-clipboard-target="#foo">Copy</button>
+        {{clipboard}}
+        <br><br>
+        {{_ "app.QRDesc"}}
+    </div>
+</template> -->
