@@ -8,14 +8,25 @@ body {
   margin: auto;
 }
 
+.anchor {
+	height: 20px;
+	width: 10px;
+}
+.anchora{
+	margin-bottom: 230px;
+	width: 10px;
+}
+
 ul.navbarul {
 	display: table;
-	 width: 100%;
-	 /*position: fixed;*/
+	max-width: 1000px;
+	width: 1000px;
+	 position: fixed;
 /*	padding:0; 
 	margin:0; 
 	white-space:nowrap;
 */	/*width: 1000px;*/
+	top:210px;
     font-size: 30px;
 }
 
@@ -33,7 +44,7 @@ ul.navbarul li {
 }
 /* DivTable.com */
 .rTable {
-	margin-top: 20px;
+	margin-top: 230px;
 }
 .divTable{
 	display: table;
@@ -79,7 +90,7 @@ ul.navbarul li {
 	top: 0;
 	height: 216px;
 	list-style: none;
-	/*position: fixed;*/
+	position: fixed;
 }
 
 .banner img {
