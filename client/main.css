@@ -11,6 +11,9 @@ body {
 .pre {
   white-space: pre;
 }
+.rule {
+	max-width: 900px;
+}
 .anchor {
 	height: 20px;
 	width: 10px;
@@ -149,6 +152,9 @@ button {
     body {
         font-size: 32px;
     }
+    .rule {
+		max-width: 90%;
+	}
     .navbar {
 		width: 100%;
 	}
