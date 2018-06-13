@@ -186,7 +186,7 @@ Template.team.helpers({
     'contribution': function(teamNumber) {
 
         if (!contractInstance && chain3) {
-            contractInstance = chain3.mc.contract(gameAbi).at(gameAddress);
+            contractInstance = chain3.mc.contract(teamAbi).at(teamAddress);
         }
 
         var team = contractInstance.teams(teamNumber);
