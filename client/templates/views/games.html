@@ -38,7 +38,15 @@
 
 <template name="gamebody">
     {{#if isMicroMessage}}
-        <H2>Please open in normal browser!</H2>
+        {{#if isApple}}
+            <H2>show apple image</H2>
+        {{/if}}
+            
+        {{#if isAndroid}}
+            <h2>show andorid image</h2>
+        {{else}}
+            <H2>Please open in system browser.</H2>
+        {{/if}}
     {{else}}
         <div class="subtitle">{{_ "app.SingleMatchPrediction"}}</div>
         <div class="rTable">
