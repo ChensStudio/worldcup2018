@@ -33,5 +33,36 @@ Template.worldcup.helpers({
 
         console.log("totalAward", totalAward);
         return Math.floor(totalAward + 0.5)+ ' WCT';
+    },    
+    'isMicroMessage': function () {
+        var ua = window.navigator.userAgent.toLowerCase();
+        console.log(ua);
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            return true;
+        }
+        else {
+            return false;
+        }
+    },
+    'isAndroid': function () {
+        var ua = window.navigator.userAgent.toLowerCase();
+        console.log(ua);
+        if(ua.match(/android/i) == 'android'){
+            return true;
+        }
+        else {
+            return false;
+        }
+    },
+    'isApple': function () {
+        var ua = window.navigator.userAgent.toLowerCase();
+        console.log(ua);
+        if(ua.match(/iphone/i) == 'iphone'){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
+
 });

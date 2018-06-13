@@ -3,32 +3,45 @@
 </head>
 
 <template name="worldcup">
-   <div class="totalaward">{{_ "app.TotalAward"}}: {{getTotaAward}}</div>
+    {{#if isMicroMessage}}
+        {{#if isApple}}
+            <img src="iphonewechat.jpg">
+        {{else}}
+	        {{#if isAndroid}}
+	            <img src="androidwechat.jpg">
+	        {{else}}
+	            <H2>Please open in system browser.</H2>
+	        {{/if}}
+		{{/if}}
+            
+    {{else}}
+	    <div class="banner"><img src={{_ "app.Banner"}}></div>
+	    <div class="mytitle">{{_ "app.MyTitle"}}</div>
+	     <div class="totalaward">{{_ "app.TotalAward"}}: {{getTotaAward}}</div>
+	    <div class="navbar">
+	    	<ul class="navbarul">
+	    		<li><a href="#singleMatchAnchor">{{_ "app.SingleMatchPrediction"}}</a></li>
+	    		|
+	    		<li><a href="#championAnchor">{{_ "app.ChampionPrediction"}}</a></li>
+	    		|
+	    		<li><a href="#helpAnchor">{{_ "app.Help"}}</a></li>
+				
+				<li><div class="i18ndropdown">{{> i18n_dropdown}}</div></li>
+	    	</ul>
+	    </div>
+	    <a class="anchora" name="singleMatchAnchor"></a>
+	    <div class="anchor"></div>
+	    {{> gamebody}}
+	    <a class="anchora" name="championAnchor"></a>
+	    <div class="anchor"></div>
+	    {{> teambody}}
+	    <a class="anchora" name="helpAnchor"></a>
+	    <div class="anchor"></div>
+	    <div class="rule pre">{{_ "app.Rule"}}</div>
+    {{/if}}
 </template>
 
 
 <body>
-    <div class="banner"><img src={{_ "app.Banner"}}></div>
-    <div class="mytitle">{{_ "app.MyTitle"}}</div>
-    {{> worldcup}}
-    <div class="navbar">
-    	<ul class="navbarul">
-    		<li><a href="#singleMatchAnchor">{{_ "app.SingleMatchPrediction"}}</a></li>
-    		|
-    		<li><a href="#championAnchor">{{_ "app.ChampionPrediction"}}</a></li>
-    		|
-    		<li><a href="#helpAnchor">{{_ "app.Help"}}</a></li>
-			
-			<li><div class="i18ndropdown">{{> i18n_dropdown}}</div></li>
-    	</ul>
-    </div>
-    <a class="anchora" name="singleMatchAnchor"></a>
-    <div class="anchor"></div>
-    {{> gamebody}}
-    <a class="anchora" name="championAnchor"></a>
-    <div class="anchor"></div>
-    {{> teambody}}
-    <a class="anchora" name="helpAnchor"></a>
-    <div class="anchor"></div>
-    <div class="rule pre">{{_ "app.Rule"}}</div>
+{{> worldcup}}
 </body>
