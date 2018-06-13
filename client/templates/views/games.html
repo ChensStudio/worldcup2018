@@ -51,8 +51,12 @@
 </template>
 
 <template name="qrModal">
-    <div class="modal fade qrbox">
+    <div class="modal fade qrbox" style="color:black">
         {{>qrcode text=contract size=256}}
-        <!-- {{address}} -->
+        <input id="foo" style="width:500px" type="text" value={{contract}} readonly>
+        <button class="btn" data-clipboard-action="copy" data-clipboard-target="#foo">Copy</button>
+        {{clipboard}}
+        <br><br>
+        {{_ "app.QRDesc"}}
     </div>
 </template>

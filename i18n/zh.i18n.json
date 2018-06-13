@@ -9,7 +9,8 @@
 		"Win": "获胜",
 		"JackpotTitle": "单场总奖金",
 		"Draw": "打平",
-		"Banner": "banner.jpg"
+		"Banner": "banner.jpg",
+		"QRDesc": "请使用复制上面的地址到Token Pocket(https://www.mytokenpocket.vip)或使用Token Pocket扫描二维码发送墨客."
 	},
 	"team":{
 		"Russia": {"Name": "俄罗斯"},

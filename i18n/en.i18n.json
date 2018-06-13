@@ -9,7 +9,8 @@
 		"Win": "Win",
 		"JackpotTitle": "Match Total Award",
 		"Draw": "Draw",
-		"Banner": "banner.jpg"
+		"Banner": "banner.jpg",
+		"QRDesc": "Please copy above address to Token Pocket(https://www.mytokenpocket.vip) or use Token Pockety to scan the barcode to send MOAC."
 	},
 	"team":{
 		"Russia": {"Name": "Russia", "Flag": "rus.png"},

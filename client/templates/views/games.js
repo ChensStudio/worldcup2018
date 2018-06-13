@@ -761,10 +761,10 @@ Template.gamebody.helpers({
         }
         ,{
             GameNumber: "59"
-            ,Team1: "team.51Win.Name"
-            ,Team2: "team.52Win.Name"
-            ,GMTTime: "2018/07/07 18:00 UTC"
-            ,City:"location.Sochi"
+            ,Team1: "team.55Win.Name"
+            ,Team2: "team.56Win.Name"
+            ,GMTTime: "2018/07/07 14:00 UTC"
+            ,City:"location.Samara"
             ,Team1WinContract: ""
             ,DrawContract: ""
             ,Team2WinContract: ""
@@ -774,11 +774,10 @@ Template.gamebody.helpers({
         }
         ,{
             GameNumber: "60"
-            ,Team1: "team.55Win.Name"
-            ,Team2: "team.56Win.Name"
-            ,Date: "2018/07/08"
-            ,GMTTime: "02:00"
-            ,City:"location.Samara"
+            ,Team1: "team.51Win.Name"
+            ,Team2: "team.52Win.Name"
+            ,GMTTime: "2018/07/07 18:00 UTC"
+            ,City:"location.Sochi"
             ,Team1WinContract: ""
             ,DrawContract: ""
             ,Team2WinContract: ""
@@ -876,6 +875,9 @@ Template.game.events({
 Template.qrModal.helpers({
     contract: function(){
         return myContract;
+    },
+    clipboard: function(){
+        var clipboard = new Clipboard('.btn');
     }
 });
 
