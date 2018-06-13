@@ -6,196 +6,164 @@ var myContract;
 Template.teambody.helpers({
     teams:[
         {
-            TeamNumber: "11"
-            ,Team: "team.Russia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Russia.Flag"
+            TeamNumber1: "51"
+            ,Team1: "team.Brazil.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Brazil.Flag"
+            ,TeamNumber2: "61"
+            ,Team2: "team.Germany.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Germany.Flag"
         }
         ,{
-            TeamNumber: "12"
-            ,Team: "team.Saudi Arabia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Saudi Arabia.Flag"
+            TeamNumber1: "41"
+            ,Team1: "team.Argentina.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Argentina.Flag"
+            ,TeamNumber2: "31"
+            ,Team2: "team.France.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.France.Flag"
         }
         ,{
-            TeamNumber: "13"
-            ,Team: "team.Egypt.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Egypt.Flag"
+            TeamNumber1: "21"
+            ,Team1: "team.Portugal.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Portugal.Flag"
+            ,TeamNumber2: "22"
+            ,Team2: "team.Spain.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Spain.Flag"
         }
         ,{
-            TeamNumber: "14"
-            ,Team: "team.Uruguay.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Uruguay.Flag"
+            TeamNumber1: "71"
+            ,Team1: "team.Belgium.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Belgium.Flag"
+            ,TeamNumber2: "74"
+            ,Team2: "team.England.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.England.Flag"
         }
         ,{
-            TeamNumber: "21"
-            ,Team: "team.Portugal.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Portugal.Flag"
+            TeamNumber1: "11"
+            ,Team1: "team.Russia.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Russia.Flag"
+            ,TeamNumber2: "12"
+            ,Team2: "team.Saudi Arabia.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Saudi Arabia.Flag"
         }
         ,{
-            TeamNumber: "22"
-            ,Team: "team.Spain.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Spain.Flag"
+            TeamNumber1: "13"
+            ,Team1: "team.Egypt.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Egypt.Flag"
+            ,TeamNumber2: "14"
+            ,Team2: "team.Uruguay.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Uruguay.Flag"
         }
         ,{
-            TeamNumber: "23"
-            ,Team: "team.Morocco.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Morocco.Flag"
+            TeamNumber1: "23"
+            ,Team1: "team.Morocco.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Morocco.Flag"
+            ,TeamNumber2: "24"
+            ,Team2: "team.Iran.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Iran.Flag"
         }
         ,{
-            TeamNumber: "24"
-            ,Team: "team.Iran.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Iran.Flag"
+            TeamNumber1: "32"
+            ,Team1: "team.Australia.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Australia.Flag"
+            ,TeamNumber2: "33"
+            ,Team2: "team.Peru.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Peru.Flag"
         }
         ,{
-            TeamNumber: "31"
-            ,Team: "team.France.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.France.Flag"
+            TeamNumber1: "34"
+            ,Team1: "team.Denmark.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Denmark.Flag"
+            ,TeamNumber2: "42"
+            ,Team2: "team.Iceland.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Iceland.Flag"
         }
         ,{
-            TeamNumber: "32"
-            ,Team: "team.Australia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Australia.Flag"
+            TeamNumber1: "43"
+            ,Team1: "team.Croatia.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Croatia.Flag"
+            ,TeamNumber2: "44"
+            ,Team2: "team.Nigeria.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Nigeria.Flag"
         }
         ,{
-            TeamNumber: "33"
-            ,Team: "team.Peru.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Peru.Flag"
+            TeamNumber1: "52"
+            ,Team1: "team.Switzerland.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Switzerland.Flag"
+            ,TeamNumber2: "53"
+            ,Team2: "team.Costa Rica.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Costa Rica.Flag"
         }
         ,{
-            TeamNumber: "34"
-            ,Team: "team.Denmark.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Denmark.Flag"
+            TeamNumber1: "54"
+            ,Team1: "team.Serbia.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Serbia.Flag"
+            ,TeamNumber2: "62"
+            ,Team2: "team.Mexico.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Mexico.Flag"
         }
         ,{
-            TeamNumber: "41"
-            ,Team: "team.Argentina.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Argentina.Flag"
+            TeamNumber1: "63"
+            ,Team1: "team.Sweden.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Sweden.Flag"
+            ,TeamNumber2: "64"
+            ,Team2: "team.South Korea.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.South Korea.Flag"
         }
         ,{
-            TeamNumber: "42"
-            ,Team: "team.Iceland.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Iceland.Flag"
+            TeamNumber1: "72"
+            ,Team1: "team.Panama.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Panama.Flag"
+            ,TeamNumber2: "73"
+            ,Team2: "team.Tunisia.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Tunisia.Flag"
         }
         ,{
-            TeamNumber: "43"
-            ,Team: "team.Croatia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Croatia.Flag"
+            TeamNumber1: "81"
+            ,Team1: "team.Poland.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Poland.Flag"
+            ,TeamNumber2: "82"
+            ,Team2: "team.Senegal.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Senegal.Flag"
         }
         ,{
-            TeamNumber: "44"
-            ,Team: "team.Nigeria.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Nigeria.Flag"
-        }
-        ,{
-            TeamNumber: "51"
-            ,Team: "team.Brazil.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Brazil.Flag"
-        }
-        ,{
-            TeamNumber: "52"
-            ,Team: "team.Switzerland.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Switzerland.Flag"
-        }
-        ,{
-            TeamNumber: "53"
-            ,Team: "team.Costa Rica.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Costa Rica.Flag"
-        }
-        ,{
-            TeamNumber: "54"
-            ,Team: "team.Serbia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Servia.Flag"
-        }
-        ,{
-            TeamNumber: "61"
-            ,Team: "team.Germany.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Germany.Flag"
-        }
-        ,{
-            TeamNumber: "62"
-            ,Team: "team.Mexico.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Mexico.Flag"
-        }
-        ,{
-            TeamNumber: "63"
-            ,Team: "team.Sweden.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Sweden.Flag"
-        }
-        ,{
-            TeamNumber: "64"
-            ,Team: "team.South Korea.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.South Korea.Flag"
-        }
-        ,{
-            TeamNumber: "71"
-            ,Team: "team.Belgium.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Belgium.Flag"
-        }
-        ,{
-            TeamNumber: "72"
-            ,Team: "team.Panama.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Panama.Flag"
-        }
-        ,{
-            TeamNumber: "73"
-            ,Team: "team.Tunisia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Tunisia.Flag"
-        }
-        ,{
-            TeamNumber: "74"
-            ,Team: "team.England.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.England.Flag"
-        }
-        ,{
-            TeamNumber: "81"
-            ,Team: "team.Poland.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Poland.Flag"
-        }
-        ,{
-            TeamNumber: "82"
-            ,Team: "team.Senegal.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Senegal.Flag"
-        }
-        ,{
-            TeamNumber: "83"
-            ,Team: "team.Colombia.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Colombia.Flag"
-        }
-        ,{
-            TeamNumber: "84"
-            ,Team: "team.Japan.Name"
-            ,ChampionContract: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
-            ,Flag: "team.Japan.Flag"
+            TeamNumber1: "83"
+            ,Team1: "team.Colombia.Name"
+            ,ChampionContract1: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag1: "team.Colombia.Flag"
+            ,TeamNumber2: "84"
+            ,Team2: "team.Japan.Name"
+            ,ChampionContract2: "0x8Ec907e81d4aeCA7AB55c22D520Dd2837fd628B9"
+            ,Flag2: "team.Japan.Flag"
         }
 
     ],
@@ -230,7 +198,7 @@ Template.team.helpers({
 Template.team.events({
     'click .contractClick': function(e) {
         myContract = $(e.target).data('contract');
-        // Modal.show('qrModal');
+        Modal.show('qrModal');
     }
  });
 
