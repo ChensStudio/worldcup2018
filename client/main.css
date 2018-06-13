@@ -8,6 +8,9 @@ body {
   margin: auto;
 }
 
+.pre {
+  white-space: pre;
+}
 .anchor {
 	height: 20px;
 	width: 10px;
@@ -49,6 +52,13 @@ ul.navbarul li {
 .divTable{
 	display: table;
 	width: 100%;
+}
+.divTableCaption {
+	/*display: table-caption;*/
+	background-color:#4e5f8c;
+	padding: 15px;
+	margin-bottom: 10px;
+
 }
 .divTableRow {
 	display: table-row;

@@ -5,9 +5,9 @@
 </body>
 
 <template name="game">
-    <div class="divTableRow">
-        <div class="divTableCell smallFont">{{_ GameText gamenumber=GameNumber}}: {{localTime GMTTime}}</div>
-    </div>
+    <!-- <div class="divTableRow"> -->
+    <div class="divTableCaption smallFont">{{_ GameText gamenumber=GameNumber}}: {{localTime GMTTime}}</div>
+    <!-- </div> -->
     <div class="divTableRow">
         <div class="divTableCell">{{_ Team1}}</div>
         <div class="divTableCell">&nbsp;</div>
@@ -58,6 +58,6 @@
         <button class="btn" data-clipboard-action="copy" data-clipboard-target="#foo">Copy</button>
         {{clipboard}}
         <br><br>
-        {{_ "app.QRDesc"}}
+        <div class="pre">{{_ "app.QRDesc"}}</div>
     </div>
 </template>
