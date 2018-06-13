@@ -29,7 +29,8 @@ ul.navbarul {
 	margin:0; 
 	white-space:nowrap;
 */	/*width: 1000px;*/
-	top:210px;
+	background-color: #2a334c;
+	top:215px;
     font-size: 30px;
 }
 
@@ -45,9 +46,14 @@ ul.navbarul li {
 .navbar {
 	width: 1000px;
 }
+.subtitle {
+	margin-top: 230px;
+	padding: 15px;
+	background-color:#4e5f8c;
+}
 /* DivTable.com */
 .rTable {
-	margin-top: 230px;
+
 }
 .divTable{
 	display: table;
@@ -131,7 +137,9 @@ button {
     .navbar {
 		width: 100%;
 	}
-
+	ul.navbarul {
+		top:205px;
+	}
 	.smallFont {
 		font-size: 24px;
 	}

@@ -3,6 +3,10 @@
 </body> -->
 
 <template name="team">
+    <div class="divTableCaption smallFont"></div>
+    <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+    </div>
     <div class="divTableRow">
         <div class="divTableCell">{{_ Team1}}</div>
         <div class="divTableCell">{{_ Team2}}</div>
@@ -28,6 +32,7 @@
     {{#if isMicroMessage}}
         <H2>Please open in normal browser!</H2>
     {{else}}
+        <div class="subtitle">{{_ "app.ChampionPrediction"}}</div>
         <div class="rTable">
             <div class="rTableBody">
                 {{#each teams}}
