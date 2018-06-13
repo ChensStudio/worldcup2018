@@ -3,10 +3,14 @@
 </head>
 
 <template name="worldcup">
+   <div class="totalaward">{{_ "app.TotalAward"}}: {{getTotaAward}}</div>
 </template>
+
 
 <body>
     <div class="banner"><img src={{_ "app.Banner"}}></div>
+    <div class="mytitle">{{_ "app.MyTitle"}}</div>
+    {{> worldcup}}
     <div class="navbar">
     	<ul class="navbarul">
     		<li><a href="#singleMatchAnchor">{{_ "app.SingleMatchPrediction"}}</a></li>
