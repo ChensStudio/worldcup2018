@@ -11,7 +11,7 @@ body {
 
 /* DivTable.com */
 .rTable {
-	margin-top: 230px;
+	margin-top: 250px;
 }
 .divTable{
 	display: table;
@@ -55,7 +55,7 @@ body {
 }
 .banner {
 	top: 0;
-	height: 200px;
+	height: 216px;
 	list-style: none;
 	position: fixed;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .i18ndropdown {
-	top: 200px;
+	top: 220px;
 	position: fixed;
 	width: 80px; 
 	height: 50px;
@@ -83,5 +83,12 @@ button {
     }
 	.smallFont {
 		font-size: 24px;
+	}
+	.banner {
+		width: 100%;
+		height: auto;
+	}
+	.banner img {
+		width: 100%;
 	}
 }
