@@ -871,7 +871,12 @@ Template.game.helpers({
 
         if (contractInstance) {
             var match = contractInstance.matches(gameNumber);
-            var index = result + 9;
+            var index = 9;
+            if (result == 1) {
+                index = 11;
+            } else if (result == 2) {
+                index = 10;
+            }
             return Math.floor(match[index]/1000000000000000000 + 0.5)+ ' WCT';
         } else {
             return "";
