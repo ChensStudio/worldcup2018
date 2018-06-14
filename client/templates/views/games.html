@@ -5,6 +5,7 @@
 </body>
 
 <template name="game">
+    {{#if isShowDraw GameNumber}}
     <!-- <div class="divTableRow"> -->
     <div class="divTableCaption smallFont">{{_ GameText gamenumber=GameNumber}}: {{localTime GMTTime}}</div>
     <!-- </div> -->
@@ -28,7 +29,11 @@
     <div class="divTableRow">
         {{#if isShowButton GMTTime}}
             <div class="divTableCell"><button class = "contractClick" data-contract={{Team1WinContract}}>{{_ Team1}} {{_ "app.Win"}}</button></div>
-            <div class="divTableCell"><button class = "contractClick" data-contract={{DrawContract}}>{{_ "app.Draw"}}</button></div>
+            {{#if isShowDraw GameNumber}}
+                <div class="divTableCell"><button class = "contractClick" data-contract={{DrawContract}}>{{_ "app.Draw"}}</button></div>
+            {{else}}
+                <div class="divTableCell"></div>
+            {{/if}}
             <div class="divTableCell"><button class = "contractClick" data-contract={{Team2WinContract}}>{{_ Team2}} {{_ "app.Win"}}</button></div>
         {{/if}}
     </div>
@@ -36,6 +41,7 @@
         <!-- <div class="divTableCell">{{_ City}}</div> -->
         <div class="divTableCell">&nbsp;</div>
     </div>
+    {{/if}}
 </template>
 
 <template name="gamebody">
