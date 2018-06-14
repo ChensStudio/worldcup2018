@@ -922,6 +922,9 @@ Template.qrModal.helpers({
     contract: function(){
         return myContract;
     },
+    tx: function(){
+        return "moac:"+myContract+"?amount=1.1&token=MOAC&gas=150000";
+    },
     clipboard: function(){
         var clipboard = new Clipboard('.btn');
     }
