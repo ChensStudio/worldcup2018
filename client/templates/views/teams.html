@@ -19,10 +19,12 @@
         <div class="divTableCell">{{contribution TeamNumber1}}</div>
         <div class="divTableCell">{{contribution TeamNumber2}}</div>
     </div>
-    <div class="divTableRow">
-        <div class="divTableCell"><button class = "contractClick" data-contract={{ChampionContract1}}>{{_ "app.BetChampion"}}</button></div>
-        <div class="divTableCell"><button class = "contractClick" data-contract={{ChampionContract2}}>{{_ "app.BetChampion"}}</button></div>
-    </div>
+    {{#if isShowButton}}
+        <div class="divTableRow">
+            <div class="divTableCell"><button class = "contractClick" data-contract={{ChampionContract1}}>{{_ "app.BetChampion"}}</button></div>
+            <div class="divTableCell"><button class = "contractClick" data-contract={{ChampionContract2}}>{{_ "app.BetChampion"}}</button></div>
+        </div>
+    {{/if}}
     <div class="divTableRow">
         <div class="divTableCell">&nbsp;</div>
     </div>

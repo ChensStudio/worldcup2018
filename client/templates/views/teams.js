@@ -192,6 +192,15 @@ Template.team.helpers({
         } else {
             return "";
         }
+    },
+    'isShowButton': function(){
+        var currentTimeStamp = new Date().getTime();
+        var gameTimeStamp = new Date("2018/07/10 18:00 UTC").getTime();
+
+        if(currentTimeStamp >= gameTimeStamp) {
+            return false;
+        } 
+        return true;
     }
 });
 
