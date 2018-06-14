@@ -181,13 +181,17 @@ Template.teambody.helpers({
 Template.team.helpers({
     'contribution': function(teamNumber) {
 
-        if (!contractInstance && chain3) {
+        if (!contractInstance && (typeof chain3 !== 'undefined')) {
             contractInstance = chain3.mc.contract(contractAbi).at(contractAddress);
         }
 
-        var team = contractInstance.teams(teamNumber);
-        var index = 2;
-        return Math.floor(team[index]/1000000000000000000 + 0.5)+ ' WCT';
+        if (contractInstance) {
+            var team = contractInstance.teams(teamNumber);
+            var index = 2;
+            return Math.floor(team[index]/1000000000000000000 + 0.5)+ ' WCT';
+        } else {
+            return "";
+        }
     }
 });
 
