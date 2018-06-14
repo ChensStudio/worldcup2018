@@ -212,7 +212,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Poland.Flag"             
             ,Flag2: "team.Senegal.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "17"
             ,Team1: "team.Russia.Name"
@@ -225,7 +225,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Russia.Flag"             
             ,Flag2: "team.Egypt.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "18"
             ,Team1: "team.Portugal.Name"
@@ -238,7 +238,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Portugal.Flag"             
             ,Flag2: "team.Morocco.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "19"
             ,Team1: "team.Uruguay.Name"
@@ -251,7 +251,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Uruguay.Flag"             
             ,Flag2: "team.Saudi Arabia.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "20"
             ,Team1: "team.Iran.Name"
@@ -264,7 +264,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Iran.Flag"             
             ,Flag2: "team.Spain.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "21"
             ,Team1: "team.Denmark.Name"
@@ -277,7 +277,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Denmark.Flag"             
             ,Flag2: "team.Australia.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "22"
             ,Team1: "team.France.Name"
@@ -290,7 +290,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.France.Flag"             
             ,Flag2: "team.Peru.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "23"
             ,Team1: "team.Argentina.Name"
@@ -303,7 +303,7 @@ Template.gamebody.helpers({
             ,Flag1: "team.Argentina.Flag"             
             ,Flag2: "team.Croatia.Flag"
             ,GameText: "games.gametext"
-        },
+        }
         ,{
             GameNumber: "24"
             ,Team1: "team.Brazil.Name"
