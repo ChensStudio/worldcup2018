@@ -26,9 +26,11 @@
         <div class="divTableCell">{{jackpot GameNumber}}</div>
     </div>
     <div class="divTableRow">
-        <div class="divTableCell"><button class = "contractClick" data-contract={{Team1WinContract}}>{{_ Team1}} {{_ "app.Win"}}</button></div>
-        <div class="divTableCell"><button class = "contractClick" data-contract={{DrawContract}}>{{_ "app.Draw"}}</button></div>
-        <div class="divTableCell"><button class = "contractClick" data-contract={{Team2WinContract}}>{{_ Team2}} {{_ "app.Win"}}</button></div>
+        {{#if isShowButton GMTTime}}
+            <div class="divTableCell"><button class = "contractClick" data-contract={{Team1WinContract}}>{{_ Team1}} {{_ "app.Win"}}</button></div>
+            <div class="divTableCell"><button class = "contractClick" data-contract={{DrawContract}}>{{_ "app.Draw"}}</button></div>
+            <div class="divTableCell"><button class = "contractClick" data-contract={{Team2WinContract}}>{{_ Team2}} {{_ "app.Win"}}</button></div>
+        {{/if}}
     </div>
     <div class="divTableRow">
         <!-- <div class="divTableCell">{{_ City}}</div> -->

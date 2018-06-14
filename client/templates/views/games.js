@@ -909,6 +909,15 @@ Template.game.helpers({
     },
     'betTokenBalances': function() {
 
+    },
+    'isShowButton': function(inputTime){
+        var currentTimeStamp = new Date().getTime();
+        var gameTimeStamp = new Date(inputTime).getTime();
+
+        if(currentTimeStamp >= gameTimeStamp) {
+            return false;
+        } 
+        return true;
     }
 });
 

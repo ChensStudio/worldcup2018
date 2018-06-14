@@ -201,5 +201,3 @@ Template.team.events({
         Modal.show('qrModal');
     }
  });
-
-
