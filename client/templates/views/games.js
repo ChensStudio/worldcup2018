@@ -914,6 +914,7 @@ Template.game.helpers({
 Template.game.events({
     'click .contractClick': function(e) {
         myContract = $(e.target).data('contract');
+        // myContract = e.target.dataset.contract;
         Modal.show('qrModal');
     }
  });
@@ -923,7 +924,7 @@ Template.qrModal.helpers({
         return myContract;
     },
     tx: function(){
-        return "moac:"+myContract+"?amount=1.1&token=MOAC&gas=150000";
+        return "moac:"+myContract+"?&token=MOAC&gas=150000";
     },
     clipboard: function(){
         var clipboard = new Clipboard('.btn');
