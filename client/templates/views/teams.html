@@ -43,13 +43,16 @@
     {{/if}}
 </template>
 
-<!-- <template name="qrModal">
+
+<template name="qrModal2">
     <div class="modal fade qrbox" style="color:black">
-        {{>qrcode text=tx size=256}}
+        {{>qrcode text=contract size=256}}
+        <br><br>
         <input id="foo" style="width:500px" type="text" value={{contract}} readonly>
         <button class="btn" data-clipboard-action="copy" data-clipboard-target="#foo">Copy</button>
         {{clipboard}}
         <br><br>
-        {{_ "app.QRDesc"}}
+        <div class="pre">{{_ "app.QRDesc"}}</div>
+        {{_ "app.GasSetting"}}
     </div>
-</template> -->
+</template>
