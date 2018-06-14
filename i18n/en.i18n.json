@@ -19,7 +19,9 @@
 		"Help": "Rules & Help",
 		"Rule": "\n\n\n\n\n\n\n\n\n\nGame Rule:\nThis game will use WCT Token to show the award pool. (1 MOAC = 10000 WCT Token)\nUpper limit of each betting is 100 MOAC, and it cannot be less than 1 MOAC.\nDeadline of betting is kicking off time of each game. Deadline of champion betting is kick-off time of semi-final. (Standard 2018/07/10 18:00 UTC, US PST Time 2018/07/10 11:00 PST)\nAfter each game award will be distributed from award pool to winners' MOAC address base on the betting ratio. Award will be MOAC.\nFor Example:\nChina VS. Italy\nChina Win: Noob1 bet 10 MOAC, Noob2 bet 20 MOAC\nDraw: Noob3 bet 50 MOAC\nItaly Win: Noob4 bet 2 MOAC, Noob5 bet 4 MOAC\n\nResult: China 4:Italy 1\nPrize distribution:\nPool: 10+20+50+2+4=86 MOAC\nNoob1: Pool*10/(10+20)=28.67 MOAC\nNoob2: Pool*20/(10+20)=57.33 MOAC\nNoob3: 0 MOAC\nNoob4: 0 MOAC\nNobb5: 0 MOAC\n*This example does not include early bird award. The early bird will put into betting number automatically if it meets the award conditions.</p> \n\nAward:\nTo recognize early bird gamers, every address will be granted 10 WCT until it reaches 500,000 WCT.\nTo recognize early bird gamers, first 500 gamers will be granted additional 1000 WCT.\nJackpot pool is 1,000,000 WCT. It will be distributed to the highest 10 bettors base on the betting value ratio.",
 		"MyTitle": "Russa 2018 Prediction Games",
-		"GasSetting": "Please set gas to 151,000."
+		"GasSetting": "Please set gas to 151,000.",
+		"Copy": "Copy",
+		"Close": "Close"
 	},
 	"team":{
 		"Russia": {"Name": "Russia", "Flag": "rus.png"},
