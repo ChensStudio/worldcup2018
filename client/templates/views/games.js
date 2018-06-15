@@ -929,7 +929,7 @@ Template.qrModal.helpers({
         return myContract;
     },
     tx: function(){
-        return "moac:"+myContract+"?&token=MOAC&gas=150000";
+        return "moac:"+myContract+"?amount=1.000000&token=MOAC";
     },
     clipboard: function(){
         var clipboard = new Clipboard('.btn');
