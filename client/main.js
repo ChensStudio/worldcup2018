@@ -5,6 +5,8 @@ import './main.html';
 import './templates/views/games.js'
 import './templates/views/teams.js'
 
+global.__dirname = './';
+
 global.Buffer = global.Buffer || require("buffer").Buffer;
 
 //https://www.moacwalletonline.com/main
