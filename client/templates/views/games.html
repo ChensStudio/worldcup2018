@@ -21,7 +21,11 @@
         </div>
         <div class="divTableRow">
             <div class="divTableCell">{{contribution result=0 gameNumber=GameNumber}}</div>
-            <div class="divTableCell">{{contribution result=1 gameNumber=GameNumber}}</div>
+            {{#if isShowDraw GameNumber}}
+                <div class="divTableCell">{{contribution result=1 gameNumber=GameNumber}}</div>
+            {{else}}
+                <div class="divTableCell"></div>
+            {{/if}}
             <div class="divTableCell">{{contribution result=2 gameNumber=GameNumber}}</div>
             <div class="divTableCell">{{jackpot GameNumber}}</div>
         </div>

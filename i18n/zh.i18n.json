@@ -86,10 +86,10 @@
 		"58Win": {"Name":  "比利时", "Flag": "bel.png"},
 		"59Win": {"Name":  "英格兰", "Flag": "eng.png"},
 		"60Win": {"Name":  "克罗地亚", "Flag": "cro.png"},
-		"61Lose": {"Name":  "61 Lose", "Flag": ""},
-		"62Lose": {"Name":  "62 Lose", "Flag": ""},
-		"61Win": {"Name":  "61 Win", "Flag": ""},
-		"62Win": {"Name":  "62 Win", "Flag": ""}
+		"61Lose": {"Name":  "比利时", "Flag": "bel.png"},
+		"62Lose": {"Name":  "英格兰", "Flag": "eng.png"},
+		"61Win": {"Name":  "法国", "Flag": "fra.png"},
+		"62Win": {"Name":  "克罗地亚", "Flag": "cro.png"}
 	},
 	"location":{
 		"Kaliningrad": "加里宁格勒",
